@@ -7,3 +7,9 @@ h1 {
   font-size: 800px;
   text-align: center;
 }
+
+h2 {
+  margin: 0 auto;
+  font-size: 100px;
+  text-align: center;
+}
