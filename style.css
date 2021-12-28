@@ -13,5 +13,9 @@ h2 {
   margin: 0 auto;
   font-size: 200px;
   text-align: center;
+<<<<<<< HEAD
   border : 1px solid black;
+=======
+  border: 100px solid green;
+>>>>>>> jy/test
 }
