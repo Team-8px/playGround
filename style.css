@@ -1,13 +1,21 @@
+:root {
+  --main-color--black: #191919;
+  --main-color--navy: #2d4263;
+  --main-color--red: #c84b31;
+  --main-color--beige: #ecdbba;
+}
+
 body {
   font-size: 1rem;
   line-height: 1rem;
-  color: (51, 51, 51);
+  color: var(--main-color--black);
 }
 .layout {
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: var(--main-color--beige);
 }
 
 .text-container {
@@ -30,21 +38,25 @@ body {
 }
 
 .subtitle-wrapper > span {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 10px 0;
+  font-weight: bold;
 }
 .mission-container {
   display: inline-flex;
   justify-content: center;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
 }
 .mission-list {
-  width: 100%;
-  height: 100%;
+  padding: 15px;
   text-align: left;
+  background-color: var(--main-color--navy);
+  border-radius: 15px;
 }
 .mission-item:nth-child(1) ~ li {
-  margin-top: 1rem;
+  margin-top: 30px;
+}
+.mission-item {
+  color: #fff;
 }
