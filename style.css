@@ -5,6 +5,33 @@
   --main-color--beige: #ecdbba;
 }
 
+.layout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+  text-align:center;
+}
+
+.color-container{
+  width:400px;
+  height:100px;
+  border: 5px solid thistle;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  text-align:center; 
+  width:400px;
+  height:100px;
+  border: 5px solid thistle;
+  font-size: 30px;
+  background-color: white;
+  margin-left: 50px;
+}
 body {
   font-size: 1rem;
   line-height: 1rem;
