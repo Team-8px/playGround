@@ -98,3 +98,10 @@ body {
   font-weight: bold;
   color: #fff;
 }
+
+.add-btn {
+  padding: 30px;
+  text-align: center;
+  background-color: powderblue;
+  border-radius: 5px;
+}
