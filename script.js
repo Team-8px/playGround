@@ -18,5 +18,4 @@ colorChangebtn.addEventListener("click", e => {
     colorContainer.style.backgroundColor = colorBox[counter];
     counter += 1;
   }
-  console.log(`inside counter${counter}`);
 });
