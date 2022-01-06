@@ -9,6 +9,29 @@ body {
   background: #eee;
   -webkit-font-smoothing: antialiased;
 }
+a {
+  all: unset;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--main-color--black);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--main-color--black);
+}
+
+a:active {
+  text-decoration: none;
+  color: var(--main-color--black);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--main-color--black);
+}
 * {
   /* box-sizing: content-box; */
   box-sizing: border-box;
